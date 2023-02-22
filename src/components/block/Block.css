@@ -1,3 +1,41 @@
-.blockToToggle {
-    display: none;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    padding-inline: 20px;
+    max-width: 500px;
+    width: 100%;
+    color: #f0f0f0f0;
+    background-color: #4b0082;
+}
+
+.heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.firstBlock, .toggledBlock {
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggledBlock {
+    border-top: 1px #f0f0f0 solid;
+}
+
+button {
+    padding: 5px 20px;
 }
