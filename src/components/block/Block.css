@@ -13,6 +13,7 @@
 }
 
 .block {
+    border-radius: 5px;
     padding-inline: 20px;
     max-width: 500px;
     width: 100%;
@@ -37,5 +38,6 @@
 }
 
 button {
+    font-size: 0.5em;
     padding: 5px 20px;
 }
